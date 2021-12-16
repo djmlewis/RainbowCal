@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6359EF88276B421E006A804B /* RainbowCal WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 6359EF87276B421E006A804B /* RainbowCal WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6359EF8E276B421E006A804B /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6359EF8C276B421E006A804B /* Interface.storyboard */; };
+		6359EF90276B4220006A804B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6359EF8F276B4220006A804B /* Assets.xcassets */; };
+		6359EF96276B4221006A804B /* RainbowCal WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6359EF95276B4221006A804B /* RainbowCal WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6359EF9C276B4221006A804B /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6359EF9B276B4221006A804B /* InterfaceController.m */; };
+		6359EF9F276B4221006A804B /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6359EF9E276B4221006A804B /* ExtensionDelegate.m */; };
+		6359EFA2276B4221006A804B /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6359EFA1276B4221006A804B /* NotificationController.m */; };
+		6359EFA5276B4221006A804B /* ComplicationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6359EFA4276B4221006A804B /* ComplicationController.m */; };
+		6359EFA7276B4222006A804B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6359EFA6276B4222006A804B /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6359EF89276B421E006A804B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6359EF7D276B421E006A804B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6359EF86276B421E006A804B;
+			remoteInfo = "RainbowCal WatchKit App";
+		};
+		6359EF97276B4221006A804B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6359EF7D276B421E006A804B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6359EF94276B4221006A804B;
+			remoteInfo = "RainbowCal WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6359EFAF276B4222006A804B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6359EF96276B4221006A804B /* RainbowCal WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6359EFB3276B4222006A804B /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				6359EF88276B421E006A804B /* RainbowCal WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6359EF83276B421E006A804B /* RainbowCal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RainbowCal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6359EF87276B421E006A804B /* RainbowCal WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RainbowCal WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6359EF8D276B421E006A804B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		6359EF8F276B4220006A804B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6359EF95276B4221006A804B /* RainbowCal WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "RainbowCal WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6359EF9A276B4221006A804B /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		6359EF9B276B4221006A804B /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		6359EF9D276B4221006A804B /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		6359EF9E276B4221006A804B /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		6359EFA0276B4221006A804B /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		6359EFA1276B4221006A804B /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		6359EFA3276B4221006A804B /* ComplicationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComplicationController.h; sourceTree = "<group>"; };
+		6359EFA4276B4221006A804B /* ComplicationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComplicationController.m; sourceTree = "<group>"; };
+		6359EFA6276B4222006A804B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6359EFA8276B4222006A804B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6359EFA9276B4222006A804B /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6359EF92276B4221006A804B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6359EF7C276B421E006A804B = {
+			isa = PBXGroup;
+			children = (
+				6359EF8B276B421E006A804B /* RainbowCal WatchKit App */,
+				6359EF99276B4221006A804B /* RainbowCal WatchKit Extension */,
+				6359EF84276B421E006A804B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6359EF84276B421E006A804B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6359EF83276B421E006A804B /* RainbowCal.app */,
+				6359EF87276B421E006A804B /* RainbowCal WatchKit App.app */,
+				6359EF95276B4221006A804B /* RainbowCal WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6359EF8B276B421E006A804B /* RainbowCal WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				6359EF8C276B421E006A804B /* Interface.storyboard */,
+				6359EF8F276B4220006A804B /* Assets.xcassets */,
+			);
+			path = "RainbowCal WatchKit App";
+			sourceTree = "<group>";
+		};
+		6359EF99276B4221006A804B /* RainbowCal WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6359EF9A276B4221006A804B /* InterfaceController.h */,
+				6359EF9B276B4221006A804B /* InterfaceController.m */,
+				6359EF9D276B4221006A804B /* ExtensionDelegate.h */,
+				6359EF9E276B4221006A804B /* ExtensionDelegate.m */,
+				6359EFA0276B4221006A804B /* NotificationController.h */,
+				6359EFA1276B4221006A804B /* NotificationController.m */,
+				6359EFA3276B4221006A804B /* ComplicationController.h */,
+				6359EFA4276B4221006A804B /* ComplicationController.m */,
+				6359EFA6276B4222006A804B /* Assets.xcassets */,
+				6359EFA8276B4222006A804B /* Info.plist */,
+				6359EFA9276B4222006A804B /* PushNotificationPayload.apns */,
+			);
+			path = "RainbowCal WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6359EF82276B421E006A804B /* RainbowCal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6359EFB4276B4222006A804B /* Build configuration list for PBXNativeTarget "RainbowCal" */;
+			buildPhases = (
+				6359EF81276B421E006A804B /* Resources */,
+				6359EFB3276B4222006A804B /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6359EF8A276B421E006A804B /* PBXTargetDependency */,
+			);
+			name = RainbowCal;
+			productName = RainbowCal;
+			productReference = 6359EF83276B421E006A804B /* RainbowCal.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		6359EF86276B421E006A804B /* RainbowCal WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6359EFB0276B4222006A804B /* Build configuration list for PBXNativeTarget "RainbowCal WatchKit App" */;
+			buildPhases = (
+				6359EF85276B421E006A804B /* Resources */,
+				6359EFAF276B4222006A804B /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6359EF98276B4221006A804B /* PBXTargetDependency */,
+			);
+			name = "RainbowCal WatchKit App";
+			productName = "RainbowCal WatchKit App";
+			productReference = 6359EF87276B421E006A804B /* RainbowCal WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		6359EF94276B4221006A804B /* RainbowCal WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6359EFAC276B4222006A804B /* Build configuration list for PBXNativeTarget "RainbowCal WatchKit Extension" */;
+			buildPhases = (
+				6359EF91276B4221006A804B /* Sources */,
+				6359EF92276B4221006A804B /* Frameworks */,
+				6359EF93276B4221006A804B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RainbowCal WatchKit Extension";
+			productName = "RainbowCal WatchKit Extension";
+			productReference = 6359EF95276B4221006A804B /* RainbowCal WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6359EF7D276B421E006A804B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					6359EF82276B421E006A804B = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					6359EF86276B421E006A804B = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					6359EF94276B4221006A804B = {
+						CreatedOnToolsVersion = 13.2;
+					};
+				};
+			};
+			buildConfigurationList = 6359EF80276B421E006A804B /* Build configuration list for PBXProject "RainbowCal" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6359EF7C276B421E006A804B;
+			productRefGroup = 6359EF84276B421E006A804B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6359EF82276B421E006A804B /* RainbowCal */,
+				6359EF86276B421E006A804B /* RainbowCal WatchKit App */,
+				6359EF94276B4221006A804B /* RainbowCal WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6359EF81276B421E006A804B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6359EF85276B421E006A804B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6359EF90276B4220006A804B /* Assets.xcassets in Resources */,
+				6359EF8E276B421E006A804B /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6359EF93276B4221006A804B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6359EFA7276B4222006A804B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6359EF91276B4221006A804B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6359EF9F276B4221006A804B /* ExtensionDelegate.m in Sources */,
+				6359EFA5276B4221006A804B /* ComplicationController.m in Sources */,
+				6359EF9C276B4221006A804B /* InterfaceController.m in Sources */,
+				6359EFA2276B4221006A804B /* NotificationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6359EF8A276B421E006A804B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6359EF86276B421E006A804B /* RainbowCal WatchKit App */;
+			targetProxy = 6359EF89276B421E006A804B /* PBXContainerItemProxy */;
+		};
+		6359EF98276B4221006A804B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6359EF94276B4221006A804B /* RainbowCal WatchKit Extension */;
+			targetProxy = 6359EF97276B4221006A804B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6359EF8C276B421E006A804B /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6359EF8D276B421E006A804B /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6359EFAA276B4222006A804B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6359EFAB276B4222006A804B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6359EFAD276B4222006A804B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 69G697CP27;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RainbowCal WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "RainbowCal WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = ComplicationController;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = ExtensionDelegate;
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.djml.RainbowCal.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		6359EFAE276B4222006A804B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 69G697CP27;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RainbowCal WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "RainbowCal WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = ComplicationController;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = ExtensionDelegate;
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.djml.RainbowCal.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		6359EFB1276B4222006A804B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 69G697CP27;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = RainbowCal_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "RainbowCal WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.djml.RainbowCal.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		6359EFB2276B4222006A804B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 69G697CP27;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = RainbowCal_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "RainbowCal WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.djml.RainbowCal.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		6359EFB5276B4222006A804B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 69G697CP27;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.djml.RainbowCal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6359EFB6276B4222006A804B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 69G697CP27;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.djml.RainbowCal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6359EF80276B421E006A804B /* Build configuration list for PBXProject "RainbowCal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6359EFAA276B4222006A804B /* Debug */,
+				6359EFAB276B4222006A804B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6359EFAC276B4222006A804B /* Build configuration list for PBXNativeTarget "RainbowCal WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6359EFAD276B4222006A804B /* Debug */,
+				6359EFAE276B4222006A804B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6359EFB0276B4222006A804B /* Build configuration list for PBXNativeTarget "RainbowCal WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6359EFB1276B4222006A804B /* Debug */,
+				6359EFB2276B4222006A804B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6359EFB4276B4222006A804B /* Build configuration list for PBXNativeTarget "RainbowCal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6359EFB5276B4222006A804B /* Debug */,
+				6359EFB6276B4222006A804B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6359EF7D276B421E006A804B /* Project object */;
+}
